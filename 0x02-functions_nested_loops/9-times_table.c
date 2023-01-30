@@ -1,14 +1,8 @@
-/*
- * File: 9-times_table.c
- *
- * Auth: Rob Hollis
-*/
 #include "main.h"
 #include <stdio.h>
 /**
- * times_table - see description
- * Description: Print times tables to 9
- * Return: nothing on success
+ * times table starting at 9
+ * Return: Always 0 (Success)
 */
 void times_table(void)
 {
@@ -36,12 +30,12 @@ void times_table(void)
 			else
 			{
 				_putchar(product /10 + '0');
-				_putchar(product /10 % '0');
+				_putchar(product %10 + '0');
 			}
 			
 			if (s == e)
 				_putchar('\n');
-			s++
+			s++;
 		}
 		s = 0;
 		count++;
