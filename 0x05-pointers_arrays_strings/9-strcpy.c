@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strcpy - Copies a string pointed to by @src, including the
  *   null byte, to a buffer pointed to by @dest.
@@ -14,7 +15,7 @@ char *_strcpy(char *dest, const char *src)
 
 	do {
 		*(dest + cont) = *(src + cont);
-		cont++;
+		const++;
 	} 
 	while (*(src + cont - 1) != '\0');
 	return (dest);
