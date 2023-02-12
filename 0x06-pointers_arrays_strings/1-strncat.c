@@ -7,7 +7,7 @@
  * @n: the number of bytes from src to be changed to dest
  * Return: a pointer to the resulting string dest
  */
-#include "main.h"
+#include "holberton.h"
 
 char *_strncat(char *dest, char *src, int n)
 {
