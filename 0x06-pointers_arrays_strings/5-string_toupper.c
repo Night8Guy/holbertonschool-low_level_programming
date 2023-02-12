@@ -4,7 +4,7 @@
  * @str: the string that is being changed
  * Return: a pointer that string
  */
-#include "main.h"
+#include "holberton.h"
 
 char *string_toupper(char *str)
 {

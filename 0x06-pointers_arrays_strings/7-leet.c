@@ -3,7 +3,7 @@
  * @str: the string being changed/encoded
  * Return: a pointer to encoded sting
  */
-#include "main.h"
+#include "holberton.h"
 char *leet(char *str)
 {
 	int index = 0, index2;

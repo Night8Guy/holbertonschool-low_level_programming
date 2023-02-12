@@ -3,7 +3,7 @@
  * @a: the array of integers that will be reversed
  * @n: the number of elemnts in the array
  */
-#include "main.h"
+#include "holberton.h"
 void reverse_array(int *a, int n)
 {
 	int tmp, index;

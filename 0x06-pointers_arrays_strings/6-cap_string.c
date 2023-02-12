@@ -3,7 +3,7 @@
  * @str: the string changed
  * Return: a pointer to that string
  */
-#include "main.h"
+#include "holberton.h"
 
 char *cap_string(char *str)
 {
