@@ -4,8 +4,7 @@
  * @src: source string
  * Return: a pointer to the resulting string dest
  */
-#include <stdio.h>
-#include "main.h"
+#include "holberton.h"
 
 char *_strcat(char *dest, char *src)
 {
