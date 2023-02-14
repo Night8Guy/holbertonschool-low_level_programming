@@ -1,5 +1,5 @@
 /**
- * _strcat - concentrates two strings
+ * _strcat - concatenates two strings
  * @dest: final string
  * @src: source string
  * Return: a pointer to the resulting string dest
