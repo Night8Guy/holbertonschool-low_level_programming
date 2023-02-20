@@ -3,6 +3,22 @@
 int is_divisible(int num, int div);
 int is_prime_number(int n);
 
+/**
+ * is_divisible - Checks if a number is divisible.
+ * @num: The number to be checked.
+ * @div: The divisor.
+ *
+ * Return: If number is divisible - 0.
+ *         If number is not divisible - 1.
+ */
+
+/**
+ * is_prime_number - Checks if a number is prime.
+ * @n: The number to be checked.
+ *
+ * Return: integer is not prime - 0.
+ *         number is prime - 1.
+ */
 
 int is_divisible(int num, int div)
 {
