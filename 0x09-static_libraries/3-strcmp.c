@@ -6,7 +6,7 @@
  * first unmatched characters
  * if str1 == str2, 0
  */
-#include "holberton.h"
+#include "main.h"
 
 int _strcmp(char *s1, char *s2)
 

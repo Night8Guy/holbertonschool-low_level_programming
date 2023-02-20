@@ -6,7 +6,7 @@
  * @n: maximum number of bytes copied
  * Return: a pointer to the resulting string dest
  */
-#include "holberton.h"
+#include "main.h"
 
 char *_strncpy(char *dest, char *src, int n)
 {
