@@ -2,9 +2,9 @@
 #define dog_h
 /**
  *struct dog - experimental
- *@name: Sparky
- *@owner: Robby H
- *@age: 3
+ *@name: Poppy
+ *@owner: Bob
+ *@age: 3.5
  *
  */
 
