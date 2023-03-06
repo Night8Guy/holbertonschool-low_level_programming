@@ -12,7 +12,7 @@ struct dog
 {
 	char *name, *owner;
 	float age;
-/* test comment. dog's traits are inconsequential*/
+/* test comment. The Dog's Traits are not present*/
 
 };
 
