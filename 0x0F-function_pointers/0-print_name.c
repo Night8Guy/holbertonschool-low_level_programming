@@ -1,0 +1,13 @@
+#include "function_pointers.h"
+
+/**
+ *print_name - print my name
+ *@name: my name is
+ *@f: fungi
+ *Return: nothing
+ */
+void print_name(char *name, void (*f)(char *))
+{
+	if (name && f)
+		f(name);
+}
